@@ -7,6 +7,10 @@
     color: #FD6E0A;
 }
 
+section {
+    margin-top: 130px;
+}
+
 .btn-primary {
     height: 64px;
     border-radius: 5px;
@@ -80,7 +84,6 @@ main {
 
 /* about section style */
 .about {
-    margin-top: 110px;
     background:
         #FFF8F3;
     border-radius: 10px;
@@ -93,6 +96,8 @@ main {
     font-weight: 700;
     font-size: 35px;
     margin-bottom: 30px;
+    text-align: center;
+    margin-bottom: 150px;
 }
 
 .section-description {
@@ -101,17 +106,104 @@ main {
     margin-bottom: 30px;
 
 }
-.about-info-contrainer{
+
+.about-info-contrainer {
     display: flex;
     justify-content: space-around;
 }
-.info-title{
+
+.info-title {
     font-size: 20px;
     color: #757575;
 
 }
-.info-description{
+
+.info-description {
     font-size: 20px;
     font-weight: 700;
     color: #474747;
+}
+
+/* what i do section */
+
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skill-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill-title {
+    font-size: 20PX;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-description {
+    color: #757575;
+}
+
+/* resume section styles */
+.resume-contant {
+    display: flex;
+    gap:24px;
+}
+
+.iteam-title {
+    color: #474747;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.sub-iteam-subtitle {
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.sub-iteam-description {
+    color: #757575;
+}
+.resume-iteam{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume-buttom{
+    margin-top: 50px;
+    text-align: center;
+}
+/* contact styles */
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+/* .contact-title{
+    text-align: left;
+    margin-top: 20px;
+} */
+.contact .section-title{
+    text-align: left;
+}
+.contact input[type="text"],input[type="email"],textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+input{
+    height: 64px;
+}
+.contact{
+    text-decoration: none;
 }
